@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title><!--Título da página no navegador-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+    <link rel="stylesheet" href="/styles.css"/><!--Link para o arquivo CSS externo-->
+    <nav><!--Menu de navegação com links-->
+        <ul>
+            <li><a href="Inicío">Inicío</a></li>
+            <li><a href="sobre.html">Sobre Mim</a></li><!--Tag para criar listas-->
+            <li><a href="formação.html">Formação</a></li>
+            <li><a href="portifólio.html">Portifólio</a></li>
+            <li><a href="formulario.html">Formulário</a></li>
+            
+        </ul>
+    </nav>
+</head>
+<body>    <!--Aluno:Daniel Augusto Pereira Couto  RU:4748518-->
+
+    <h1>Formulário</h1><!-- Título principal da página -->
+    <form><!-- Início do formulário -->
+        <!-- Campo para o nome do usuário -->
+            <div class="campo">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+         <!-- Campo para o email do usuário -->
+            <div class="campo">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+
+            </div>
+         <!-- Campo para a mensagem do usuário -->
+        <div class="campo">
+            <br>
+            <label for="mensagem">Mensagem</label>
+            <textarea row="10" style="width: 1000px;" name="mensagem" id="mensagem"></textarea>
+
+        </div>
+        <button class="botão" type="submit">Enviar</button> <!-- Botão de envio do formulário -->
+    </form>
+
+   
+</body>
+</html>

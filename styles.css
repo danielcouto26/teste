@@ -1,0 +1,75 @@
+*{    
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat,sans-serif;
+}
+
+body{  /* Estilos gerais para o corpo da página */
+    font-size: sans-serif;
+    font-size: 1em;
+    color: black;
+    margin-left: 16%;
+    margin-top: 2%;
+    justify-content: center;
+    background-color: rgb(90, 129, 83);
+    
+}
+/* Estilo de borda arredondada para os elementos de formulário (input, textarea, button) */
+input, textarea, button 
+input,textarea,button{
+    border-radius: 5px;
+}
+/* Estilo do container de campos (inputs e textarea) */
+.campo{
+    margin-bottom: 1em;
+}
+.campo label{ /* Estilo da label dos campos */
+    margin-bottom: 0.2em;
+    color: rgb(8, 30, 31);
+    display: block;
+}
+/* Estilos dos campos de texto e textarea */
+.campo input[type="text"], .campo input[type="email"] .campo textarea{
+    padding: 0.2em;
+    border: 1px solid #54545456;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display:block
+
+}
+/* Estilos do botão */
+button{
+    font-size: 1em;
+    background: #10405455;
+    border: 0;
+    margin-bottom: 100em;
+    color: #efff08;
+    padding: 0.2em 0.6em;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+button:hover{
+    background:#1045;
+    text-shadow: none;
+}
+
+
+nav ul{
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration:none;
+    color:darkgrey;
+    font-weight: bold;
+}
